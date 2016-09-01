@@ -1,0 +1,9 @@
+def main():
+	run = "yes"
+	while run =="yes":
+		Fahrenheit = int(input("Enter a temperature in Fahrenheit:"))
+		Celsius = (Fahrenheit - 32) * 5.0/9.0
+		print ("Temperature is:", Fahrenheit, "degrees Fahrenheit which equals ", Celsius, "in degrees Celsius")
+		run = input("Would you like to continue the program Enter yes or no?")
+	print("The program will end now.")
+main()
